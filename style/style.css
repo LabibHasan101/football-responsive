@@ -1,0 +1,97 @@
+/*--- font--- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+/* ---- body ---- all */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar */
+
+.picture {
+    background-color: rgb(58, 58, 241);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+}
+
+.conmebol {
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 150px;
+}
+
+
+/*------- button ----------*/
+
+.simple-button {
+    background-image: linear-gradient(to right, rgb(245, 92, 65), rgb(231, 10, 55));
+    padding: 5px 15px;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    transition: width 5s, transform 5s;
+}
+
+
+/* banner */
+
+.banner img {
+    height: 500px;
+    width: 600px;
+    margin-top: 50px;
+}
+
+
+/* hr {
+    border: 1px solid fuchsia;
+} */
+
+
+/*---------- article ---------- */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+
+.player img {
+    height: 256px;
+    width: 300px;
+}
+
+
+/*----------- container-------- */
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 3% 3% 3%;
+    margin: 10px 15px;
+    box-shadow: 10px 10px 40px rgb(51, 141, 153);
+}
+
+h2 {
+    font-size: 30px;
+    color: fuchsia;
+}
+
+
+/* highlights */
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.messi {
+    height: 150px;
+    width: 250px;
+}
